@@ -15,6 +15,7 @@ import {
 } from './server/telegram';
 import { OrderStatus } from './src/types';
 
+const TELEGRAM_API_BASE = 'https://api.telegram.org/bot';
 const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function startServer() {
@@ -944,11 +945,28 @@ async function startServer() {
     });
   }
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', async () => {
      console.log(`[PARFUM.SELECTIVE] Server listening on http://0.0.0.0:${PORT}`);
      console.log(`[PARFUM.SELECTIVE] APP_URL=${process.env.APP_URL || '(empty)'}`);
      console.log(`[PARFUM.SELECTIVE] TELEGRAM_BOT_TOKEN=${process.env.TELEGRAM_BOT_TOKEN ? 'set' : '(missing)'}`);
      console.log(`[PARFUM.SELECTIVE] TELEGRAM_RECIPIENT_ID=${process.env.TELEGRAM_RECIPIENT_ID || '(missing)'}`);
+     
+     // Register Telegram webhook
+     const token = process.env.TELEGRAM_BOT_TOKEN || '';
+     if (token && process.env.APP_URL) {
+       try {
+         const webhookUrl = `${process.env.APP_URL}/api/telegram/webhook`;
+         const res = await fetch(`${TELEGRAM_API_BASE}${token}/setWebhook`, {
+           method: 'POST',
+           headers: { 'Content-Type': 'application/json' },
+           body: JSON.stringify({ url: webhookUrl })
+         });
+         const data = await res.json();
+         console.log(`[PARFUM.SELECTIVE] Webhook set: ${data.ok ? 'OK' : data.description}`);
+       } catch (e) {
+         console.error('[PARFUM.SELECTIVE] Failed to set webhook:', e);
+       }
+     }
    });
 }
 
