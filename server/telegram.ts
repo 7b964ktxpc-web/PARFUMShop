@@ -439,9 +439,9 @@ export async function handleTelegramWebhook(body: any) {
 
       if (token) {
         const appUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.APP_URL || '';
-        const keyboard = appUrl ? {
+const keyboard = appUrl ? {
           inline_keyboard: [
-            [{ text: '🛍 Открыть витрину', url: appUrl }]
+            [{ text: '🛍 Открыть витрину', web_app: { url: appUrl } }]
           ]
         } : undefined;
 
@@ -450,7 +450,7 @@ export async function handleTelegramWebhook(body: any) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             chat_id: chatId,
-            text: `✨ <b>Добро пожаловать в бутик PARFUM.SELECTIVE!</b>\n\nЗдесь собраны лучшие селективные ароматы в распиве и полноразмерных флаконах: <i>Ganymede, Baccarat Rouge 540, Lost Cherry, Bal d'Afrique</i> и другие.\n\n🎁 <b>Ваш персональный подарок за регистрацию:</b>\nПромокод: <code>${promoCode.code}</code> на скидку <b>${promoCode.discount_value}%</b> на первый заказ!\n\nНажмите кнопку ниже, чтобы открыть онлайн-витрину и применить промокод в корзине.\n\n🔗 Сайт: ${appUrl}`,
+            text: `✨ <b>Добро пожаловать в бутик PARFUM.SELECTIVE!</b>\n\nЗдесь собраны лучшие селективные ароматы в распиве и полноразмерных флаконах: <i>Ganymede, Baccarat Rouge 540, Lost Cherry, Bal d'Afrique</i> и другие.\n\n🎁 <b>Ваш персональный подарок за регистрацию:</b>\nПромокод: <code>${promoCode.code}</code> на скидку <b>${promoCode.discount_value}%</b> на первый заказ!\n\nНажмите кнопку ниже, чтобы открыть онлайн-витрину и применить промокод в корзине.`,
             parse_mode: 'HTML',
             reply_markup: keyboard
           })
