@@ -1,0 +1,20 @@
+[build]
+builder = "NIXPACKS"
+
+[build.environment]
+NODE_VERSION = "22"
+
+[deploy]
+start = "npm start"
+healthcheck_poll = 80
+
+[services.web]
+instances = 1
+
+[mounts.data]
+source = "data"
+destination = "/app/data"
+
+[env]
+NODE_ENV = "production"
+PORT = "3000"
