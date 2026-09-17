@@ -524,6 +524,8 @@ async function startServer() {
         return res.status(400).json({ success: false, error: 'telegram_id is required' });
       }
 
+      const existingSubscriber = db.getSubscriber(String(telegram_id));
+
       const subscriber = db.upsertSubscriber({
         telegram_id: String(telegram_id),
         first_name: first_name || 'Клиент',
@@ -533,7 +535,9 @@ async function startServer() {
         source: 'webapp_launch'
       });
 
-      const promoCode = db.getOrCreateRegistrationPromoCode(String(telegram_id), first_name || 'Клиент');
+      const promoCode = !existingSubscriber
+        ? db.getOrCreateRegistrationPromoCode(String(telegram_id), first_name || 'Клиент')
+        : null;
 
       const settings = db.getSettings();
       const adminIds = settings.admin_telegram_ids || [];
