@@ -18,7 +18,7 @@ import { OrderStatus } from './src/types';
 
 dotenv.config();
 
-const PORT = 3000;
+const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function startServer() {
   const app = express();
