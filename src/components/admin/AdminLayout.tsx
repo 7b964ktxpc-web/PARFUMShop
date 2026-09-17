@@ -67,6 +67,8 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ onBackToShop, onPrevie
 
   useEffect(() => {
     fetchAllData();
+    const interval = setInterval(fetchAllData, 30000);
+    return () => clearInterval(interval);
   }, []);
 
   const handleUpdateOrderStatus = async (orderId: string, status: OrderStatus) => {
