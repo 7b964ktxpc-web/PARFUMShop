@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: parfumshop
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: NODE_ENV=production node dist/server.cjs
+    envVars:
+      - key: APP_URL
+        value: https://parfumshop.onrender.com
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://parfumshop.onrender.com
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8985292911:AAF6LDEah9lhJ2fnzxElLXxYdt410vf0fSg
+      - key: TELEGRAM_RECIPIENT_ID
+        value: 6641008071
+      - key: TELEGRAM_BOT_USERNAME
+        value: PARFUM_SELECTIVEBOT
+      - key: NEXT_PUBLIC_TELEGRAM_BOT_USERNAME
+        value: PARFUM_SELECTIVEBOT
+    routes:
+      - type: proxy
+        path: /
+        url: https://parfumshop.onrender.com
+    domain: parfumshop.onrender.com
