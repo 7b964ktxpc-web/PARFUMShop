@@ -16,7 +16,7 @@ import {
 } from './server/telegram';
 import { OrderStatus } from './src/types';
 
-dotenv.config();
+dotenv.config({ override: false });
 
 const PORT = parseInt(process.env.PORT || '3000', 10);
 
