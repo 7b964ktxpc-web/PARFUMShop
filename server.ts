@@ -944,9 +944,12 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[PARFUM.SELECTIVE] Server listening on http://0.0.0.0:${PORT}`);
-  });
+app.listen(PORT, '0.0.0.0', () => {
+     console.log(`[PARFUM.SELECTIVE] Server listening on http://0.0.0.0:${PORT}`);
+     console.log(`[PARFUM.SELECTIVE] APP_URL=${process.env.APP_URL || '(empty)'}`);
+     console.log(`[PARFUM.SELECTIVE] TELEGRAM_BOT_TOKEN=${process.env.TELEGRAM_BOT_TOKEN ? 'set' : '(missing)'}`);
+     console.log(`[PARFUM.SELECTIVE] TELEGRAM_RECIPIENT_ID=${process.env.TELEGRAM_RECIPIENT_ID || '(missing)'}`);
+   });
 }
 
 startServer().catch(err => {
