@@ -22,10 +22,8 @@ const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function startServer() {
   const app = express();
-  app.set('trust proxy', 1);
+
   app.use(express.json());
-  app.use((req, res, next) => { res.setHeader('Cross-Origin-Opener-Policy', 'same-origin'); res.setHeader('Cross-Origin-Resource-Policy', 'same-origin'); next(); });
-  app.use((req, res, next) => { res.setHeader('X-Frame-Options', 'DENY'); res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains'); next(); });
 
   // Health check
   app.get('/api/health', (req, res) => {

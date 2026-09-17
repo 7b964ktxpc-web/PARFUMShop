@@ -1,0 +1,27 @@
+app = 'parfum-selective'
+primary_region = 'iad'
+
+[env]
+  NODE_ENV = 'production'
+  PORT = '3000'
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpu = 1
+  memory_mb = 256
+
+[[mounts]]
+  source = 'parfum-data'
+  destination = '/app/data'
+  initial_size = '1gb'
+  disk_size = '1gb'
+
+[deploy]
+  release_command = 'npm run build'

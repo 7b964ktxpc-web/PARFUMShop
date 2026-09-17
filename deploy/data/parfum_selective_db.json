@@ -1,0 +1,1076 @@
+{
+  "products": [
+    {
+      "id": "prod-ganymede",
+      "brand": "Marc-Antoine Barrois",
+      "name": "Ganymede",
+      "description": "Культовый минерально-кожаный аромат от Квентина Биша. Элегантная замша, минеральные ноты и сияющий аккорд бессмертника.",
+      "direction": "Минеральный, кожаный, древесный",
+      "notes": {
+        "top": [
+          "Мандарин",
+          "Шафран"
+        ],
+        "heart": [
+          "Фиалка",
+          "Османтус"
+        ],
+        "base": [
+          "Акигалавуд",
+          "Бессмертник",
+          "Замша"
+        ],
+        "main": [
+          "Акигалавуд",
+          "Замша",
+          "Бессмертник",
+          "Минералы"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-07T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 700,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1500,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2700,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 24500,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-bal-dafrique",
+      "brand": "Byredo",
+      "name": "Bal d’Afrique",
+      "description": "Теплый, романтический вихрь африканской календулы, черного янтаря, бергамота и марокканского кедра.",
+      "direction": "Цитрусовый, древесный, амбровый",
+      "notes": {
+        "top": [
+          "Бергамот",
+          "Лимон",
+          "Нероли",
+          "Календула"
+        ],
+        "heart": [
+          "Фиалка",
+          "Лепестки жасмина",
+          "Цикламен"
+        ],
+        "base": [
+          "Черная амбра",
+          "Мускус",
+          "Ветивер",
+          "Кедр"
+        ],
+        "main": [
+          "Ветивер",
+          "Календула",
+          "Амбра",
+          "Бергамот"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-09T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 650,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1400,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2500,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "50 мл (флакон)",
+          "price": 19800,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-baccarat-540",
+      "brand": "Maison Francis Kurkdjian",
+      "name": "Baccarat Rouge 540",
+      "description": "Великолепное сияние амброво-древесного бриза. Воздушные ноты жасмина и пряный шафран сплетаются с кедровой древесиной.",
+      "direction": "Амбровый, древесный, сладковатый",
+      "notes": {
+        "top": [
+          "Шафран",
+          "Горький миндаль"
+        ],
+        "heart": [
+          "Египетский жасмин Грандифлорум",
+          "Кедр"
+        ],
+        "base": [
+          "Серая амбра",
+          "Древесный мускус"
+        ],
+        "main": [
+          "Шафран",
+          "Серая амбра",
+          "Кедр",
+          "Жасмин"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-03T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 850,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1900,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 3400,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "70 мл (флакон)",
+          "price": 34000,
+          "is_available": false
+        }
+      ]
+    },
+    {
+      "id": "prod-angels-share",
+      "brand": "Kilian",
+      "name": "Angels’ Share",
+      "description": "Аромат коньяка в дубовых бочках, приправленный корицей, бобами тонка, пралине и сливочной ванилью.",
+      "direction": "Восточный, гурманский, пряный",
+      "notes": {
+        "top": [
+          "Коньячная эссенция"
+        ],
+        "heart": [
+          "Корица",
+          "Бобы тонка",
+          "Абсолют дуба"
+        ],
+        "base": [
+          "Пралине",
+          "Ваниль",
+          "Сандал"
+        ],
+        "main": [
+          "Коньяк",
+          "Корица",
+          "Пралине",
+          "Дуб"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": true,
+      "is_popular": true,
+      "created_at": "2026-09-14T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 800,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1800,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 3200,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "50 мл (флакон)",
+          "price": 27900,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-santal-33",
+      "brand": "Le Labo",
+      "name": "Santal 33",
+      "description": "Ода американскому Дикому Западу. Древесный дым, кардамон, фиалка, папирус и роскошный австралийский сандал.",
+      "direction": "Древесный, кожаный, фужерный",
+      "notes": {
+        "top": [
+          "Кардамон",
+          "Фиалка"
+        ],
+        "heart": [
+          "Ирис",
+          "Папирус",
+          "Амброксан"
+        ],
+        "base": [
+          "Кедр",
+          "Кожа",
+          "Сандал"
+        ],
+        "main": [
+          "Сандал",
+          "Кардамон",
+          "Кожа",
+          "Ирис"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-05T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 750,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1650,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2950,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 31000,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-hacivat",
+      "brand": "Nishane",
+      "name": "Hacivat",
+      "description": "Искрящийся ананас, сочный бергамот и терпкий дубовый мох. Невероятный шлейф и стойкость на весь день.",
+      "direction": "Шипровый, фруктовый, свежий",
+      "notes": {
+        "top": [
+          "Бергамот",
+          "Ананас",
+          "Грейпфрут"
+        ],
+        "heart": [
+          "Жасмин",
+          "Пачули",
+          "Кедр"
+        ],
+        "base": [
+          "Ясный дубовый мох",
+          "Древесные ноты"
+        ],
+        "main": [
+          "Ананас",
+          "Дубовый мох",
+          "Бергамот",
+          "Кедр"
+        ]
+      },
+      "gender": "men",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-08T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 700,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1550,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2800,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "50 мл (флакон)",
+          "price": 22000,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-philosykos",
+      "brand": "Diptyque",
+      "name": "Philosykos",
+      "description": "Настоящее средиземноморское солнце в тени инжирного дерева: зеленые хрустящие листья, молочный сок плодов и белое дерево.",
+      "direction": "Зеленый, древесный, фруктовый",
+      "notes": {
+        "top": [
+          "Лист инжира",
+          "Свежий инжир"
+        ],
+        "heart": [
+          "Зеленые ноты",
+          "Кокос"
+        ],
+        "base": [
+          "Инжирное дерево",
+          "Кедр",
+          "Древесные ноты"
+        ],
+        "main": [
+          "Инжир",
+          "Зеленый лист",
+          "Кокосовое молоко",
+          "Кедр"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": false,
+      "created_at": "2026-09-11T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 600,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1300,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2300,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 18500,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-delina",
+      "brand": "Parfums de Marly",
+      "name": "Delina",
+      "description": "Чувственный цветочный букет из турецкой розы, ландыша и пиона, оттененный кислинкой личи, ревеня и мускуса.",
+      "direction": "Цветочный, фруктовый, свежий",
+      "notes": {
+        "top": [
+          "Ревень",
+          "Личи",
+          "Бергамот"
+        ],
+        "heart": [
+          "Турецкая роза",
+          "Пион",
+          "Ваниль"
+        ],
+        "base": [
+          "Кашмеран",
+          "Белый мускус",
+          "Ладан"
+        ],
+        "main": [
+          "Турецкая роза",
+          "Личи",
+          "Ревень",
+          "Кашмеран"
+        ]
+      },
+      "gender": "women",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-06T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 800,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1850,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 3300,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "75 мл (флакон)",
+          "price": 29500,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-another-13",
+      "brand": "Le Labo",
+      "name": "Another 13",
+      "description": "Гипнотичный, чистый синтетический нектар с амброксаном, жасмином и мхом. Аромат-невидимка, притягивающий комплименты.",
+      "direction": "Амбровый, мускусный, молекулярный",
+      "notes": {
+        "top": [
+          "Груша",
+          "Цитрусовые аккорды"
+        ],
+        "heart": [
+          "Амброксан",
+          "Салицилаты",
+          "Жасмин"
+        ],
+        "base": [
+          "Изо-е-супер",
+          "Мох",
+          "Амбретта"
+        ],
+        "main": [
+          "Амброксан",
+          "Груша",
+          "Мускус",
+          "Мох"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": true,
+      "is_popular": true,
+      "created_at": "2026-09-15T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 750,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1700,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 3100,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 32000,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-gris-charnel",
+      "brand": "BDK Parfums",
+      "name": "Gris Charnel",
+      "description": "Бархатистый урбанистический шедевр: инжир, черный чай, кардамон и бурбонский ветивер в кремовой дымке сандала.",
+      "direction": "Пряный, древесный, пудровый",
+      "notes": {
+        "top": [
+          "Инжир",
+          "Черный чай",
+          "Эссенция кардамона"
+        ],
+        "heart": [
+          "Абсолют ириса",
+          "Бурбонский ветивер"
+        ],
+        "base": [
+          "Сандал из Индии",
+          "Бобы тонка"
+        ],
+        "main": [
+          "Черный чай",
+          "Инжир",
+          "Сандал",
+          "Кардамон"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": false,
+      "is_popular": true,
+      "created_at": "2026-09-12T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 700,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1600,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 2900,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 23500,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-bois-imperial",
+      "brand": "Essential Parfums",
+      "name": "Bois Impérial",
+      "description": "Свежеизмельченные пряные листья тайского базилика в сочетании со сверкающим грейпфрутом и благородным акигалавудом.",
+      "direction": "Древесный, фужерный, пряный",
+      "notes": {
+        "top": [
+          "Тайский базилик",
+          "Грейпфрут",
+          "Сычуаньский перец"
+        ],
+        "heart": [
+          "Гаитянский ветивер",
+          "Петалиа"
+        ],
+        "base": [
+          "Акигалавуд",
+          "Пачули из Индонезии",
+          "Амброксан"
+        ],
+        "main": [
+          "Акигалавуд",
+          "Базилик",
+          "Ветивер",
+          "Перец"
+        ]
+      },
+      "gender": "unisex",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": true,
+      "is_popular": true,
+      "created_at": "2026-09-16T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 500,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 1100,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 1900,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 12500,
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "id": "prod-guidance",
+      "brand": "Amouage",
+      "name": "Guidance",
+      "description": "Ошеломляющий шедевр Квентина Биша: груша, ладан, фундук, османтус, шафран и теплая сливочная ваниль.",
+      "direction": "Цветочный, фруктовый, амбровый",
+      "notes": {
+        "top": [
+          "Груша",
+          "Ладан",
+          "Фундук"
+        ],
+        "heart": [
+          "Шафран",
+          "Роза",
+          "Жасмин самбак",
+          "Османтус"
+        ],
+        "base": [
+          "Лабданум",
+          "Сандал",
+          "Акигалавуд",
+          "Серая амбра",
+          "Ваниль"
+        ],
+        "main": [
+          "Фундук",
+          "Груша",
+          "Ладан",
+          "Османтус"
+        ]
+      },
+      "gender": "women",
+      "category": "all",
+      "image_url": "https://images.unsplash.com/photo-1583445013765-46c20c4a6772?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "is_new": true,
+      "is_popular": true,
+      "created_at": "2026-09-13T08:02:04.399Z",
+      "variants": [
+        {
+          "id": "v1",
+          "volume": "2 мл",
+          "price": 900,
+          "is_available": true
+        },
+        {
+          "id": "v2",
+          "volume": "5 мл",
+          "price": 2100,
+          "is_available": true
+        },
+        {
+          "id": "v3",
+          "volume": "10 мл",
+          "price": 3800,
+          "is_available": true
+        },
+        {
+          "id": "v4",
+          "volume": "100 мл (флакон)",
+          "price": 39500,
+          "is_available": true
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1789632368317",
+      "order_number": "#1002",
+      "customer_name": "Дмитрий",
+      "customer_phone": "9999999999",
+      "items": [
+        {
+          "id": "prod-ganymede-v1",
+          "product_id": "prod-ganymede",
+          "product_name": "Ganymede",
+          "brand": "Marc-Antoine Barrois",
+          "volume": "2 мл",
+          "price": 700,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "total": 700,
+      "status": "Выдан",
+      "created_at": "2026-09-17T08:06:08.317Z",
+      "telegram_notified": false
+    },
+    {
+      "id": "ord-demo-1001",
+      "order_number": "#1001",
+      "customer_name": "Алексей",
+      "customer_phone": "+7 999 123-45-67",
+      "customer_telegram": "@alex_parfum",
+      "comment": "Пожалуйста, упакуйте для подарка",
+      "items": [
+        {
+          "id": "item-1",
+          "product_id": "prod-ganymede",
+          "product_name": "Ganymede",
+          "brand": "Marc-Antoine Barrois",
+          "volume": "5 мл",
+          "price": 1500,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": "item-2",
+          "product_id": "prod-bal-dafrique",
+          "product_name": "Bal d’Afrique",
+          "brand": "Byredo",
+          "volume": "2 мл",
+          "price": 650,
+          "quantity": 2,
+          "image_url": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "total": 2800,
+      "status": "Принят",
+      "created_at": "2026-09-17T06:02:04.400Z",
+      "telegram_notified": true
+    }
+  ],
+  "settings": {
+    "id": "default",
+    "telegram_bot_token": "",
+    "telegram_bot_username": "",
+    "telegram_recipient_id": "",
+    "telegram_connected": false,
+    "telegram_connection_code": "PARFUM_G27CX6",
+    "admin_telegram_ids": [],
+    "updated_at": "2026-09-17T08:02:04.400Z"
+  },
+  "lastOrderSequence": 1002,
+  "stories": [
+    {
+      "id": "story-hits",
+      "title": "Хиты",
+      "avatarUrl": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=300&q=80",
+      "badgeType": "flame",
+      "slides": [
+        {
+          "id": "hits-1",
+          "badge": "Хит #1 в мире",
+          "tag": "Marc-Antoine Barrois",
+          "title": "Ganymede",
+          "subtitle": "Минерально-кожаный шедевр",
+          "description": "Легендарный аромат Квентина Биша. Утончённая светлая замша, космические минералы и шлейф, который невозможно забыть.",
+          "notesPreview": [
+            "Минералы",
+            "Замша",
+            "Акигалавуд",
+            "Бессмертник"
+          ],
+          "priceFrom": 700,
+          "imageUrl": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-ganymede",
+          "ctaText": "Смотреть Ganymede"
+        },
+        {
+          "id": "hits-2",
+          "badge": "Культовый шлейф",
+          "tag": "Maison Francis Kurkdjian",
+          "title": "Baccarat Rouge 540",
+          "subtitle": "Амбровое сияние и шафран",
+          "description": "Драгоценное звучание серой амбры, египетского жасмина грандифлорум и сладковато-смолистого кедра.",
+          "notesPreview": [
+            "Шафран",
+            "Серая амбра",
+            "Жасмин",
+            "Кедр"
+          ],
+          "priceFrom": 850,
+          "imageUrl": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-baccarat-540",
+          "ctaText": "Смотреть Baccarat"
+        },
+        {
+          "id": "hits-3",
+          "badge": "Любимец публики",
+          "tag": "Byredo",
+          "title": "Bal d’Afrique",
+          "subtitle": "Теплый парижский авангард",
+          "description": "Один из самых комплиментарных ароматов современности: солнечная календула, сочные цитрусы, фиалка и марокканский кедр.",
+          "notesPreview": [
+            "Ветивер",
+            "Календула",
+            "Бергамот",
+            "Амбра"
+          ],
+          "priceFrom": 650,
+          "imageUrl": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-bal-dafrique",
+          "ctaText": "Смотреть Bal d’Afrique"
+        }
+      ]
+    },
+    {
+      "id": "story-new",
+      "title": "Новинки",
+      "avatarUrl": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=300&q=80",
+      "badgeType": "sparkles",
+      "slides": [
+        {
+          "id": "new-1",
+          "badge": "Новинка распива",
+          "tag": "Kilian",
+          "title": "Angels’ Share",
+          "subtitle": "Коньячный восторг и пралине",
+          "description": "Настоящая коньячная эссенция из дубовых бочек с пряной корицей, сливочной ванилью и тающим пралине.",
+          "notesPreview": [
+            "Коньяк",
+            "Корица",
+            "Пралине",
+            "Дуб"
+          ],
+          "priceFrom": 800,
+          "imageUrl": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-angels-share",
+          "ctaText": "Смотреть Angels’ Share"
+        },
+        {
+          "id": "new-2",
+          "badge": "Стойкий бестселлер",
+          "tag": "Nishane",
+          "title": "Hacivat",
+          "subtitle": "Ананас, сочный бергамот и мох",
+          "description": "Супер-стойкий фруктово-шипровый экстракт. Искрящийся ананас с благородным терпким дубовым мхом.",
+          "notesPreview": [
+            "Ананас",
+            "Дубовый мох",
+            "Бергамот",
+            "Кедр"
+          ],
+          "priceFrom": 700,
+          "imageUrl": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-hacivat",
+          "ctaText": "Смотреть Hacivat"
+        }
+      ]
+    },
+    {
+      "id": "story-byredo",
+      "title": "Byredo",
+      "avatarUrl": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=300&q=80",
+      "slides": [
+        {
+          "id": "byredo-1",
+          "badge": "Культовый дом",
+          "tag": "Стокгольм, Швеция",
+          "title": "Эстетика Byredo",
+          "subtitle": "Ароматы как воспоминания",
+          "description": "Основанный Беном Горхэмом бренд создал новую парфюмерную эстетику — от хрустящей альдегидной чистоты до теплого ветивера.",
+          "notesPreview": [
+            "Bal d’Afrique",
+            "Blanche",
+            "Gypsy Water"
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=900&q=85",
+          "brandFilter": "Byredo",
+          "ctaText": "Все ароматы Byredo"
+        },
+        {
+          "id": "byredo-2",
+          "badge": "Абсолютный фаворит",
+          "tag": "Byredo",
+          "title": "Bal d’Afrique",
+          "subtitle": "Солнечная элегантность",
+          "description": "Носите каждый день: тонкий, интеллигентный и безупречно сбалансированный шлейф.",
+          "notesPreview": [
+            "Календула",
+            "Амбра",
+            "Ветивер",
+            "Лимон"
+          ],
+          "priceFrom": 650,
+          "imageUrl": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-bal-dafrique",
+          "ctaText": "Выбрать объём от 2 мл"
+        }
+      ]
+    },
+    {
+      "id": "story-lelabo",
+      "title": "Le Labo",
+      "avatarUrl": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=300&q=80",
+      "slides": [
+        {
+          "id": "lelabo-1",
+          "badge": "Нью-Йоркская ниша",
+          "tag": "Le Labo",
+          "title": "Santal 33",
+          "subtitle": "Аромат богемы и свободы",
+          "description": "Австралийский сандал, сухой дым папируса, пудровый ирис и нотка дорогой кожи. Символ стиля во всем мире.",
+          "notesPreview": [
+            "Сандал",
+            "Кардамон",
+            "Кожа",
+            "Ирис"
+          ],
+          "priceFrom": 750,
+          "imageUrl": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-santal-33",
+          "ctaText": "Смотреть Santal 33"
+        },
+        {
+          "id": "lelabo-2",
+          "badge": "Молекулярная магия",
+          "tag": "Le Labo",
+          "title": "Another 13",
+          "subtitle": "Гипнотичный парфюм-невидимка",
+          "description": "Чистый амброксан, нежная сочная груша и мускус. Сливается с кожей и звучит чарующе при каждом движении.",
+          "notesPreview": [
+            "Амброксан",
+            "Груша",
+            "Мускус",
+            "Жасмин"
+          ],
+          "priceFrom": 750,
+          "imageUrl": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-another-13",
+          "ctaText": "Смотреть Another 13"
+        }
+      ]
+    },
+    {
+      "id": "story-marly",
+      "title": "Marly",
+      "avatarUrl": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=300&q=80",
+      "slides": [
+        {
+          "id": "marly-1",
+          "badge": "Королевский шик",
+          "tag": "Parfums de Marly",
+          "title": "Delina",
+          "subtitle": "Самая желанная роза",
+          "description": "Нежнейший дуэт турецкой розы и сочного личи с кисло-сладким ревенем, ванилью и мягким шлейфом кашмерана.",
+          "notesPreview": [
+            "Турецкая роза",
+            "Личи",
+            "Ревень",
+            "Кашмеран"
+          ],
+          "priceFrom": 800,
+          "imageUrl": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=900&q=85",
+          "productId": "prod-delina",
+          "ctaText": "Смотреть Delina"
+        }
+      ]
+    },
+    {
+      "id": "story-about-decant",
+      "title": "О распиве",
+      "avatarUrl": "https://images.unsplash.com/photo-1583445013765-46c20c4a6772?auto=format&fit=crop&w=300&q=80",
+      "badgeType": "droplet",
+      "slides": [
+        {
+          "id": "decant-1",
+          "badge": "100% Оригинальность",
+          "tag": "Гарантия бутика",
+          "title": "Только подлинные флаконы",
+          "subtitle": "Никаких копий и подделок",
+          "description": "Мы приобретаем парфюмерию исключительно у проверенных европейских дистрибьюторов. Любые батч-коды и фото флаконов предоставляем по запросу.",
+          "notesPreview": [
+            "Только оригинал",
+            "Стеклянный флакон",
+            "Точный объем"
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1583445013765-46c20c4a6772?auto=format&fit=crop&w=900&q=85",
+          "categoryFilter": "decant",
+          "ctaText": "Смотреть распив"
+        },
+        {
+          "id": "decant-2",
+          "badge": "Стерильный процесс",
+          "tag": "Качественные атомайзеры",
+          "title": "Идеальное распыление",
+          "subtitle": "Атомайзеры с металлическим спреем",
+          "description": "Отливанты набираются стерильным шприцем без контакта с воздухом. Стеклянные флаконы с металлическим спреем обеспечивают пышное мелкодисперсное облако.",
+          "notesPreview": [
+            "Стеклянные атомайзеры",
+            "Металлический спрей",
+            "Герметично"
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85",
+          "categoryFilter": "decant",
+          "ctaText": "Перейти в каталог распива"
+        }
+      ]
+    }
+  ]
+}

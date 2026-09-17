@@ -15,10 +15,6 @@ export default defineConfig(() => {
     server: {
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? {} : {},
-      allowedHosts: 'all',
-    },
-    preview: {
-      allowedHosts: 'all',
     },
     build: {
       outDir: 'dist',
