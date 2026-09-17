@@ -439,26 +439,22 @@ export async function handleTelegramWebhook(body: any) {
 
       if (token) {
         const appUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.APP_URL || '';
-        
+        const keyboard = appUrl ? {
+          inline_keyboard: [
+            [{ text: '🛍 Открыть витрину', url: appUrl }]
+          ]
+        } : undefined;
+
         await fetch(`${TELEGRAM_API_BASE}${token}/sendMessage`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             chat_id: chatId,
-            text: `✨ <b>Добро пожаловать в бутик PARFUM.SELECTIVE!</b>\n\nЗдесь собраны лучшие селективные ароматы в распиве и полноразмерных флаконах: <i>Ganymede, Baccarat Rouge 540, Lost Cherry, Bal d’Afrique</i> и другие.\n\n🎁 <b>Ваш персональный подарок за регистрацию:</b>\nПромокод: <code>${promoCode.code}</code> на скидку <b>${promoCode.discount_value}%</b> на первый заказ!\n\nНажмите кнопку ниже, чтобы открыть онлайн-витрину и применить промокод в корзине.`,
+            text: `✨ <b>Добро пожаловать в бутик PARFUM.SELECTIVE!</b>\n\nЗдесь собраны лучшие селективные ароматы в распиве и полноразмерных флаконах: <i>Ganymede, Baccarat Rouge 540, Lost Cherry, Bal d'Afrique</i> и другие.\n\n🎁 <b>Ваш персональный подарок за регистрацию:</b>\nПромокод: <code>${promoCode.code}</code> на скидку <b>${promoCode.discount_value}%</b> на первый заказ!\n\nНажмите кнопку ниже, чтобы открыть онлайн-витрину и применить промокод в корзине.\n\n🔗 Сайт: ${appUrl}`,
             parse_mode: 'HTML',
-            reply_markup: appUrl ? {
-              inline_keyboard: [
-                [
-                  {
-                    text: '🛍 Открыть витрину и забрать скидку',
-                    web_app: { url: appUrl }
-                  }
-                ]
-              ]
-            } : undefined
+            reply_markup: keyboard
           })
-        });
+});
       }
       return { ok: true, subscriber: chatId };
     }
