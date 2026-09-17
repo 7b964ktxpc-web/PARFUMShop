@@ -2,8 +2,8 @@
 
 @layer base {
   :root {
-    --font-serif: 'Cormorant Garamond', Georgia, serif;
-    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
 
   *, *::before, *::after {
@@ -23,9 +23,13 @@
     background-color: #1e2029;
     color: #f4f4f5;
     font-family: var(--font-sans);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
     overflow-x: hidden;
     width: 100%;
     max-width: 100vw;
@@ -44,6 +48,8 @@
 
   h1, h2, h3, .font-serif {
     font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.01em;
   }
 
   /* Prevent text from blowing out mobile containers */
@@ -82,4 +88,17 @@
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/* Font loading optimization */
+.fonts-loaded body {
+  font-family: var(--font-sans);
+}
+
+/* Smooth font rendering for Telegram WebView */
+@supports (-webkit-touch-callout: none) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
 }
