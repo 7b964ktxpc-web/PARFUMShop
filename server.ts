@@ -1,6 +1,5 @@
 import express from 'express';
 import path from 'path';
-import dotenv from 'dotenv';
 import { z } from 'zod';
 import { db } from './server/db';
 import {
@@ -15,8 +14,6 @@ import {
   sendSingleBroadcastMessage
 } from './server/telegram';
 import { OrderStatus } from './src/types';
-
-dotenv.config({ override: false });
 
 const PORT = parseInt(process.env.PORT || '3000', 10);
 
