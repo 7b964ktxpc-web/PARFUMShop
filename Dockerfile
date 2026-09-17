@@ -2,7 +2,7 @@ FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json ./
+COPY package.json package-lock.json ./
 RUN npm install
 
 COPY . .
@@ -12,7 +12,10 @@ FROM node:22-alpine AS production
 
 WORKDIR /app
 
+ENV NODE_ENV=production
+
 COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/package-lock.json ./package-lock.json
 RUN npm install --production
 
 COPY --from=builder /app/dist ./dist
@@ -27,4 +30,4 @@ COPY --from=builder /app/metadata.json ./metadata.json
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["node", "dist/server.cjs"]
