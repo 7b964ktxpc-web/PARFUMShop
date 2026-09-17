@@ -414,11 +414,16 @@ export async function handleTelegramWebhook(body: any) {
     }
 
     if (text.startsWith('/start admin') || (!recipientId && text.startsWith('/start'))) {
-      // Connect this chatId as manager recipient
+      // Connect this chatId as manager recipient and admin
+      const currentSettings = db.getSettings();
+      const currentAdminIds = currentSettings.admin_telegram_ids || [];
+      const updatedAdminIds = currentAdminIds.includes(chatId) ? currentAdminIds : [...currentAdminIds, chatId];
+
       db.updateSettings({
         telegram_recipient_id: chatId,
         telegram_manager_name: `${firstName} ${lastName}`.trim(),
-        telegram_connected: true
+        telegram_connected: true,
+        admin_telegram_ids: updatedAdminIds
       });
 
       if (token) {

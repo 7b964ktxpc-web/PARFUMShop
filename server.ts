@@ -537,7 +537,8 @@ async function startServer() {
 
       const settings = db.getSettings();
       const adminIds = settings.admin_telegram_ids || [];
-      const isAdmin = adminIds.includes(String(telegram_id));
+      const recipientId = settings.telegram_recipient_id || process.env.TELEGRAM_RECIPIENT_ID || '';
+      const isAdmin = adminIds.includes(String(telegram_id)) || String(telegram_id) === String(recipientId);
 
       res.json({ success: true, subscriber, promoCode, isAdmin });
     } catch (err: any) {
